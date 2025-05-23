@@ -1,0 +1,47 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #0f0;
+    width: 100%;
+    max-width: 400px;
+}
+
+#time {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 1.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+    #time {
+        font-size: 2rem;
+    }
+
+    #date {
+        font-size: 1.2rem;
+    }
+}
